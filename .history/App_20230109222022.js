@@ -24,11 +24,11 @@ export default function App() {
           <View style={styles.button}>
             <Text style={styles.buttonText}>REGISTER</Text>
           </View>
-          <View>
+          {/* <View>
             <TextInput placeholder='Email' />
             <TextInput placeholder='Fullname' />
             <TextInput placeholder='Password' />
-          </View>
+          </View> */}
 
         </View>
       </View>

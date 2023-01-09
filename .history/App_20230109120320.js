@@ -18,18 +18,18 @@ export default function App() {
           />
         </Svg>
         <View style={styles.buttonContainer}>
-          <View style={styles.button}>
+          {/* <View style={styles.button}>
             <Text style={styles.buttonText}>LOGIN</Text>
           </View>
           <View style={styles.button}>
             <Text style={styles.buttonText}>REGISTER</Text>
-          </View>
+          </View> */}
           <View>
             <TextInput placeholder='Email' />
             <TextInput placeholder='Fullname' />
             <TextInput placeholder='Password' />
           </View>
-
+  
         </View>
       </View>
     </View>

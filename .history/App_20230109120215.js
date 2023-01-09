@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import styles from './styles'
 import Svg, { Image } from 'react-native-svg';
-import { Dimensions, StyleSheet, Text, TextInput, View } from 'react-native';
+import { Dimensions, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   const { height, width } = Dimensions.get('window');
@@ -18,18 +18,13 @@ export default function App() {
           />
         </Svg>
         <View style={styles.buttonContainer}>
-          <View style={styles.button}>
+          {/* <View style={styles.button}>
             <Text style={styles.buttonText}>LOGIN</Text>
           </View>
           <View style={styles.button}>
             <Text style={styles.buttonText}>REGISTER</Text>
-          </View>
-          <View>
-            <TextInput placeholder='Email' />
-            <TextInput placeholder='Fullname' />
-            <TextInput placeholder='Password' />
-          </View>
-
+          </View> */}
+          
         </View>
       </View>
     </View>
